@@ -473,4 +473,88 @@ html{
   border:0;
   border-top:1px solid #444;
   margin:18px 0;
+
+}
+/* ===== CREDIT PAGE ===== */
+
+.credit-page{
+  max-width:1100px;
+  margin:50px auto;
+  padding:20px;
+}
+
+/* tiêu đề */
+
+.credit-header{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.credit-header h1{
+  font-size:36px;
+  color:#8b0000;
+  margin-bottom:10px;
+}
+
+.credit-header p{
+  font-size:20px;
+  color:#444;
+}
+
+/* grid */
+
+.credit-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+  margin-bottom:50px;
+}
+
+/* card */
+
+.credit-card{
+  background:#fffdf7;
+  padding:25px;
+  border-radius:12px;
+  border-top:5px solid #8b0000;
+
+  box-shadow:0 6px 18px rgba(0,0,0,0.1);
+
+  transition:0.25s;
+}
+
+.credit-card:hover{
+  transform:translateY(-6px);
+}
+
+.credit-card h3{
+  color:#8b0000;
+  margin-bottom:10px;
+}
+
+.credit-card p{
+  line-height:1.7;
+}
+
+/* project purpose */
+
+.project-purpose{
+  margin-top:30px;
+  padding:35px;
+
+  background:#f6f4ec;
+
+  border-left:6px solid #8b0000;
+
+  box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.project-purpose h2{
+  margin-top:0;
+  color:#8b0000;
+}
+
+.project-purpose p{
+  line-height:1.8;
+  font-size:18px;
 }

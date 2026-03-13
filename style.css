@@ -111,8 +111,9 @@ body {
 ======================= */
 
 .topbar {
-  background: #a00000; /* đỏ đậm */
-  color: #ffd700; /* vàng */
+  background:linear-gradient(90deg,#7a0000,#a00000); /* đỏ đậm */
+  color:#ffd700; /* vàng */
+  box-shadow:0 4px 12px rgba(0,0,0,0.25);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -473,7 +474,6 @@ html{
   border:0;
   border-top:1px solid #444;
   margin:18px 0;
-
 }
 /* ===== CREDIT PAGE ===== */
 
@@ -557,4 +557,379 @@ html{
 .project-purpose p{
   line-height:1.8;
   font-size:18px;
+}
+/* ===== NGUYEN TRAI PAGE ===== */
+
+.nguyentrai-layout{
+  display:flex;
+  gap:40px;
+
+  max-width:1200px;
+  margin:50px auto;
+  padding:20px;
+}
+
+/* phần text */
+
+.nguyentrai-text{
+  flex:2;
+  font-size:18px;
+  line-height:1.9;
+  text-align:left;
+}
+
+.nguyentrai-text h2{
+  color:#8b0000;
+  font-size:30px;
+  margin-bottom:20px;
+}
+
+/* phần ảnh */
+
+.nguyentrai-images{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.nguyentrai-images img{
+  width:100%;
+  border-radius:12px;
+
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+
+  transition:0.35s;
+}
+.nguyentrai-images figcaption{
+  text-align:center;
+  font-size:14px;
+  color:#555;
+  margin-top:6px;
+}
+.nguyentrai-images img:hover{
+  transform:scale(1.08) rotate(1deg);
+}
+.nguyentrai-text h2{
+  color:#8b0000;
+  font-size:32px;
+  margin-top:40px;
+  margin-bottom:15px;
+  border-bottom:3px solid #e0d9c9;
+  padding-bottom:6px;
+}
+
+.nguyentrai-text h3{
+  font-size:24px;
+  margin-top:30px;
+  color:#6b0000;
+}
+.work-card{
+  background:#fffdf7;
+  border-left:6px solid #8b0000;
+  padding:20px 25px;
+  margin:25px 0;
+
+  border-radius:10px;
+
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+  transition:0.25s;
+}
+
+.work-card:hover{
+  transform:translateY(-4px);
+}
+@media (max-width:900px){
+
+.nguyentrai-layout{
+  flex-direction:column;
+}
+
+.nguyentrai-images{
+  flex-direction:row;
+  overflow-x:auto;
+}
+
+.nguyentrai-images img{
+  width:220px;
+}
+}
+/* SEARCH BOX */
+
+.search-box{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: none;
+    z-index: 9999;
+}
+
+.search-box input{
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-box button{
+    padding: 6px 8px;
+    margin-left: 4px;
+    border: none;
+    background: #2c6bed;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-box button:hover{
+    background: #1e4fb3;
+}
+
+mark{
+    background: yellow;
+    color: black;
+}
+/* SMART SEARCH */
+
+.smart-search{
+    position: fixed;
+    top: 80px;
+    right: 40px;
+    width: 320px;
+    z-index: 9999;
+}
+
+.smart-search input{
+
+    width: 100%;
+    padding: 12px 14px;
+
+    border-radius: 10px;
+    border: none;
+
+    font-size: 15px;
+
+    box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+
+    outline: none;
+}
+
+.smart-search input:focus{
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+
+/* suggestion box */
+
+#suggestions{
+
+    background: white;
+    border-radius: 8px;
+
+    margin-top: 5px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+    max-height: 200px;
+    overflow-y: auto;
+
+    display: none;
+}
+
+.suggestion-item{
+
+    padding: 10px 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.suggestion-item:hover{
+    background: #f2f2f2;
+}
+
+mark{
+
+    background: yellow;
+    padding: 2px;
+}
+/* ===== SIDEBAR THEME NGUYỄN TRÃI ===== */
+
+#sidebar{
+
+  background:
+  radial-gradient(circle at 20% 20%, #faf6e8 0%, transparent 40%),
+  radial-gradient(circle at 80% 60%, #f3ebd2 0%, transparent 40%),
+  #f7f1dd;
+
+  border-left:6px solid #8b0000;
+
+  box-shadow:-8px 0 25px rgba(0,0,0,0.35);
+
+
+}
+
+
+/* HEADER */
+
+.sidebar-header{
+
+  background:linear-gradient(
+    90deg,
+    #7a0000,
+    #a80000
+  );
+
+  color:#ffd700;
+
+  padding:14px 18px;
+
+  border-bottom:3px solid #e6d5a8;
+
+}
+
+.sidebar-header h2{
+  margin:0;
+  font-size:22px;
+  letter-spacing:1px;
+}
+
+
+
+
+
+
+/* TEXT */
+
+.slide-text{
+
+  font-size:16px;
+  line-height:1.7;
+  color:#2b2b2b;
+
+}
+
+/* SECTION TITLE */
+
+.slide-text h3{
+
+  color:#8b0000;
+  border-left:4px solid #8b0000;
+
+  padding-left:8px;
+}
+
+
+/* POEM QUOTE */
+
+.slide-text blockquote{
+
+  background:#f6f1e6;
+
+  border-left:4px solid #8b0000;
+
+  padding:10px 14px;
+
+  font-style:italic;
+
+  margin:12px 0;
+}
+
+/* LIST */
+
+.slide-text ul{
+
+  margin-top:10px;
+  padding-left:22px;
+
+}
+
+.slide-text li{
+
+  margin-bottom:6px;
+}
+
+
+/* IMAGE */
+
+.main-image{
+
+  border-radius:14px;
+
+  box-shadow:0 10px 20px rgba(0,0,0,0.25);
+
+  transition:0.35s;
+}
+
+.main-image:hover{
+
+  transform:scale(1.04);
+
+}
+
+
+/* ARROW BUTTON */
+
+.arrow-btn{
+
+  background:rgba(139,0,0,0.7);
+
+}
+
+.arrow-btn:hover{
+
+  background:#8b0000;
+
+}
+
+
+/* CLOSE BUTTON */
+
+#close-btn{
+
+  border:none;
+
+  background:rgba(255,255,255,0.2);
+
+  color:#ffd700;
+
+}
+
+#close-btn:hover{
+
+  background:#ffd700;
+
+  color:#8b0000;
+
+}
+/* SIDEBAR GIỐNG CUỘN GIẤY */
+#sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 420px;
+  height: 100%;
+  background: #f6f1e4;
+  border-left: 6px solid #8b0000;
+  
+  transform-origin: right;
+  transform: scaleX(0);
+  
+  transition: transform 0.35s ease;
+  
+  box-shadow: -10px 0 25px rgba(0,0,0,0.3);
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+/* khi mở */
+#sidebar.active {
+  transform: scaleX(1);
+}
+
+/* khi đóng */
+#sidebar.closing {
+  transform: scaleX(0);
 }

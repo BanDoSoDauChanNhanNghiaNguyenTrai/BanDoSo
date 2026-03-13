@@ -147,7 +147,7 @@ var markerChiLinh = L.marker(chiLinh, { icon: normalIcon })
         {
           img: "img/Suoiconson.jpg",
           text: `
-        <h3>Sự xuất hiện của địa danh Côn Sơn trong tác phẩm Côn Sơn ca của Nguyễn Trãi</h3>
+        <h3>1.Sự xuất hiện của địa danh Côn Sơn trong tác phẩm <a href="tacpham.html#consonca">Côn Sơn ca</a> của Nguyễn Trãi</h3>
 
 <p>Địa danh <b>Côn Sơn</b> xuất hiện ngay từ đầu bài và được lặp lại nhiều lần:</p>
 
@@ -175,7 +175,7 @@ Côn Sơn không chỉ là một địa danh cụ thể mà còn được miêu 
           img: "img/Suoiconson2.jpg",
           text: `
           <hr>
-          <h3> Tư tưởng hòa hợp với thiên nhiên</h3>
+          <h3>2.Tư tưởng hòa hợp với thiên nhiên</h3>
         <p>
 Ngay từ đầu bài thơ, thiên nhiên Côn Sơn được miêu tả bằng những hình ảnh rất cụ thể:
 <b>suối, đá, thông, trúc</b>.
@@ -240,7 +240,7 @@ nơi con người tìm được <b>sự thanh cao và tự do tinh thần</b>.
           img: "img/Suoiconson3.jpg",
           text: `
           <hr>
-        <h3> Quan niệm sống và tư tưởng nhân nghĩa trong Côn Sơn ca</h3>
+        <h3>3. Quan niệm sống và tư tưởng nhân nghĩa trong Côn Sơn ca</h3>
 
 <h4> Đề cao lối sống thanh cao, thuận theo tự nhiên</h4>
 <p>Trong bài thơ, Nguyễn Trãi nhiều lần khẳng định quan niệm sống giản dị:</p>
@@ -378,7 +378,7 @@ var markerBachDang = L.marker(bachDang, { icon: normalIcon })
         {
           img: "img/Bachdang.jpg",
           text: `
-          <b>Địa danh Bạch Đằng xuất hiện trực tiếp ở câu thơ thứ hai trong bài thơ Bạch Đằng hải khẩu:</b>
+          <b>Địa danh Bạch Đằng xuất hiện trực tiếp ở câu thơ thứ hai trong bài thơ <a href="tacpham.html#bachdanghaikhau">Bạch Đằng hải khẩu</a>:</b>
 
   <blockquote>
   <i>"Khinh khởi ngâm phàm quá Bạch Đằng"</i>
@@ -544,30 +544,116 @@ var markerDucThuy = L.marker(ducThuy, { icon: normalIcon })
         {
           img: "img/Ducthuy.jpg",
           text: `
-          <b>TÊN ĐỊA DANH:</b> Núi Dục Thúy (Non Nước)<br><br>
-          Danh thắng nằm bên sông Vân, trung tâm thành phố Ninh Bình.
-          Nơi đây Nguyễn Trãi từng đề thơ trên vách đá.
+          <h3>1. Sự xuất hiện của núi Dục Thúy trong bài Dục Thúy sơn</h3>
+<hr>
+  Trong bài thơ <a href="tacpham.html#ducthuyson">Dục Thúy sơn</a>, Nguyễn Trãi nhắc đến <b>Núi Dục Thúy</b> ngay từ câu mở đầu:
+
+  <blockquote>
+  “Hải khẩu hữu tiên san”<br>
+  (Gần cửa biển có núi tiên)
+  </blockquote>
+
+  Ngọn núi được giới thiệu như một <b>“núi tiên”</b>, đặt trong không gian gần cửa biển và sông nước rộng lớn.  
+  Sau đó, Nguyễn Trãi tiếp tục khắc họa vẻ đẹp của núi qua nhiều hình ảnh:
+
+  <ul>
+  <li><i>“Liên hoa phù thủy thượng”</i> – núi như bông sen nổi trên mặt nước.</li>
+  <li><i>“Tháp ảnh trâm thanh ngọc”</i> – bóng tháp trên núi như chiếc trâm ngọc cài trên mái tóc xanh của thiên nhiên.</li>
+  <li><i>“Ba quang kính thủy hoàn”</i> – ánh nước phản chiếu như tấm gương soi cảnh sắc.</li>
+  </ul>
+
+  Nhờ những hình ảnh so sánh giàu tính thẩm mỹ, <b>núi Dục Thúy</b> hiện lên như một cảnh đẹp vừa thực vừa mang vẻ huyền ảo, thanh cao.
           `,
         },
 
         {
           img: "img/Ducthuy2.jpg",
           text: `
-          <b>Giá trị văn học</b><br>
-          Bài thơ "Dục Thúy sơn" thể hiện cảm hứng thiên nhiên,
-          phong thái ung dung của nhà nho trước cảnh đẹp đất nước.
+          <h3>2. Sự hòa quyện giữa các yếu tố của thiên nhiên</h3>
+<hr>
+  Cảnh vật trong bài thơ là sự kết hợp của nhiều yếu tố:
+
+  <ul>
+    <li>núi</li>
+    <li>nước</li>
+    <li>sóng</li>
+    <li>ánh sáng</li>
+    <li>bóng tháp</li>
+  </ul>
+
+  <p><b>Câu thơ:</b></p>
+
+  <blockquote>
+  “Ba quang kính thủy hoàn” <br>
+  (Ánh sáng trên sóng như gương soi búi tóc biếc.)
+  </blockquote>
+
+  <p>
+  Hình ảnh này cho thấy nước phản chiếu cảnh núi, tạo nên một không gian thiên nhiên gắn kết và hài hòa. 
+  Điều ấy thể hiện quan niệm của Nguyễn Trãi về một thế giới cân bằng và hòa hợp giữa các yếu tố tự nhiên.
+  </p>
+
+  <hr>
+
+  <h3>3. Con người hòa mình vào cảnh thiên nhiên</h3>
+<hr>
+  <p>
+  Nguyễn Trãi không đứng ngoài ngắm cảnh mà đặt mình trong không gian thiên nhiên ấy. 
+    <blockquote>
+  “Tiền niên lũ vãng hoàn.” <br>
+  (Năm trước đã nhiều lần đi về.)
+  </blockquote>
+
+  Việc ông nhiều lần lui tới nơi này cho thấy:
+  </p>
+
+  <ul>
+    <li>nhà thơ tìm đến thiên nhiên như một nơi gắn bó thân thuộc</li>
+    <li>nơi giúp tâm hồn thanh thản và tĩnh lặng</li>
+  </ul>
+
+  <p>
+  Như vậy, con người và thiên nhiên trong bài thơ không tách rời mà hòa làm một với nhau.
+  </p>
           `,
         },
 
         {
           img: "img/Ducthuy3.jpg",
           text: `
-          <b>Ý nghĩa</b>
-          <ul>
-            <li>Thiên nhiên hòa hợp với tâm hồn thi nhân</li>
-            <li>Thể hiện tư tưởng thanh cao của Nguyễn Trãi</li>
-            <li>Di tích văn học khắc đá tiêu biểu Việt Nam</li>
-          </ul>
+          <h3>4. Thiên nhiên gắn với chiều sâu văn hóa và cảm xúc</h3>
+<hr>
+  <p>
+  Trong bài thơ <i>Dục Thúy sơn</i>, thiên nhiên không chỉ được cảm nhận như một cảnh đẹp 
+  mà còn trở thành không gian lưu giữ ký ức văn hóa và gợi lên cảm xúc sâu lắng của nhà thơ.
+  Điều này thể hiện rõ ở hai câu cuối:
+  </p>
+
+  <blockquote>
+  “Hữu hoài Trương Thiếu Bảo,<br>
+  Bi khắc tiễn hoa ban.”<br>
+  (Chạnh nhớ tới ông Trương Thiếu Bảo, <br>
+Tấm bia đá nói về ông đã lốm đốm rêu phong.)
+  </blockquote>
+
+  <p>
+  Khi đứng trước cảnh <b>Núi Dục Thúy</b>, Nguyễn Trãi chợt nhớ đến 
+  <b>Trương Hán Siêu (Trương Thiếu Bảo)</b> – một danh sĩ nổi tiếng thời Trần 
+  từng để lại dấu tích văn hóa tại nơi này.
+  </p>
+
+  <p>
+  Hình ảnh <i>Tấm bia đá nói về ông đã lốm đốm rêu phong.</i> cho thấy dấu vết của thời gian, 
+  khiến cảnh thiên nhiên mang thêm chiều sâu lịch sử. Vì vậy, núi Dục Thúy 
+  không chỉ là cảnh đẹp của tạo hóa mà còn là nơi ghi dấu sự hiện diện của 
+  những con người tài đức trong quá khứ.
+  </p>
+
+  <p>
+  Qua đó, thiên nhiên trở thành cầu nối giữa hiện tại và quá khứ. 
+  Đứng trước cảnh núi sông, Nguyễn Trãi không chỉ thưởng ngoạn vẻ đẹp của đất trời 
+  mà còn bộc lộ tấm lòng trân trọng đối với bậc hiền tài và truyền thống văn hóa dân tộc.
+  </p>
           `,
         },
       ],
@@ -592,7 +678,7 @@ var markerThanhHu = L.marker(thanhHu, { icon: normalIcon })
           img: "img/Thanhhu.jpg",
           text: `
           <hr>
-          <h3>Động Thanh Hư trong bài thơ <i>Mộng sơn trung</i></h3>
+          <h3>Động Thanh Hư trong bài thơ <a href="tacpham.html#mongsontrung"><i>Mộng sơn trung</i></a></h3>
 
 <p>
 Trong bài thơ <b>Mộng sơn trung</b>, Nguyễn Trãi nhắc đến động Thanh Hư ngay ở câu mở đầu:
@@ -751,31 +837,146 @@ var markerVanDon = L.marker(vanDon, { icon: normalIcon })
         {
           img: "img/Vandon.webp",
           text: `
-          <b>TÊN ĐỊA DANH:</b> Vân Đồn<br><br>
-          Thương cảng cổ nổi tiếng vùng Đông Bắc Việt Nam,
-          cửa ngõ giao thương quan trọng từ thời Trần.
+           <h3>1. Sự xuất hiện của Vân Đồn trong bài thơ Vân Đồn</h3>
+<hr>
+  <p>
+  Trong bài thơ <a href="tacpham.html#vandon">Vân Đồn</a>, Nguyễn Trãi nhắc đến địa danh Vân Đồn ngay từ câu mở đầu:
+  </p>
+
+  <blockquote>
+  “Lộ nhập Vân Đồn sơn phục sơn”<br>
+  (Đường vào Vân Đồn núi non trùng điệp)
+  </blockquote>
+
+  <p>
+  Địa danh Vân Đồn được đặt ở vị trí trung tâm của bài thơ, mở ra một không gian thiên nhiên 
+  rộng lớn và hùng vĩ. Từ đó, nhà thơ tiếp tục miêu tả cảnh sắc đặc trưng của vùng biển đảo:
+  </p>
+
+  <ul>
+    <li>Núi non chồng lớp, tạo cảm giác trùng trùng điệp điệp.</li>
+    <li>Mặt biển xanh trong như gương .</li>
+    <blockquote>
+    “lam bích trừng minh kính”
+    </blockquote>
+    <li>Màu nước và núi hòa quyện như mái tóc xanh rủ xuống.</li>
+  </ul>
+
+  <p>
+  Qua những hình ảnh này, <b>Vân Đồn</b> hiện lên như một bức tranh thiên nhiên rộng lớn, 
+  vừa hùng vĩ vừa thơ mộng.
           `,
         },
 
         {
           img: "img/Vandon2.jpg",
           text: `
-          <b>Giá trị lịch sử</b>
-          <ul>
-            <li>Trung tâm giao thương quốc tế thời trung đại</li>
-            <li>Vị trí quân sự – kinh tế quan trọng</li>
-            <li>Không gian biển đảo Đông Bắc</li>
-          </ul>
+          <h3>2. Sự hòa quyện giữa các yếu tố thiên nhiên</h3>
+<hr>
+  <p>
+  Bức tranh thiên nhiên trong bài thơ được tạo nên bởi sự kết hợp của nhiều yếu tố:
+  </p>
+
+  <ul>
+    <li>núi</li>
+    <li>biển</li>
+    <li>bầu trời</li>
+    <li>ánh sáng</li>
+    <li>màu sắc của nước và cây cỏ</li>
+  </ul>
+
+  <p><b>Câu thơ:</b></p>
+
+  <blockquote>
+  "Thiên khôi địa thiết phó kỳ quan.<br>
+  Nhất bàn lam bích trừng minh kính”<br>
+  (Trời đất cao rộng rõ là cảnh diệu kỳ.<br>
+  Cả một mặt phẳng màu xanh biếc, nước trong như gương sáng,)
+  </blockquote>
+
+  <p>
+  Hình ảnh này cho thấy biển phản chiếu trời và núi, tạo nên sự hòa hợp giữa các yếu tố của thiên nhiên.
+  Điều đó thể hiện cảm nhận của Nguyễn Trãi về một thế giới tự nhiên cân bằng và hài hòa.
+  </p>
+
+  <hr>
+ <h3>3. “Vạn hộc nha thanh đỏa thúy hoàn”</h3>
+
+  <blockquote>
+  (Hàng vạn ô màu huyền xanh như mái tóc rũ.)
+  </blockquote>
+
+  <p>
+  Câu thơ sử dụng hình ảnh so sánh giàu tính thẩm mỹ. Những dãy núi và đảo ở Vân Đồn 
+  được nhìn như mái tóc xanh buông rủ trên mặt biển.
+  </p>
+
+  <p>
+  Hình ảnh này vừa gợi màu sắc xanh thẳm của núi và cây, vừa tạo cảm giác mềm mại, 
+  uyển chuyển cho cảnh vật. Nhờ vậy, thiên nhiên không chỉ hùng vĩ mà còn thơ mộng 
+  và sống động trong cảm nhận của thi nhân.
+  </p>
+
+  <hr>
+
+  <h3>4. “Vũ trụ đốn thanh trần hải nhạc,”</h3>
+
+  <blockquote>
+  (Vũ trụ bỗng thể hiện rõ ràng qua dáng núi và biển,)
+  </blockquote>
+
+  <p>
+  Ở câu thơ này, thiên nhiên được nâng lên thành biểu tượng của toàn bộ vũ trụ. 
+  Núi và biển không chỉ là cảnh vật cụ thể mà còn phản chiếu trật tự và sự 
+  trong sạch của đất trời.
+  </p>
+
+  <p>
+  Từ <i>“đốn thanh”</i> (bỗng trở nên trong sáng, rõ ràng) cho thấy khi đứng trước 
+  cảnh biển núi Vân Đồn, nhà thơ cảm nhận được sự thanh lọc của không gian thiên nhiên, 
+  khiến tâm hồn con người cũng trở nên sáng tỏ và bình lặng.
+  </p>
+  
           `,
         },
 
         {
           img: "img/Vandon3.jpg",
           text: `
-          <b>Liên hệ văn học</b><br>
-          Thể hiện tầm nhìn chiến lược biển đảo,
-          tư tưởng giữ nước và phát triển đất nước
-          trong tư tưởng Nguyễn Trãi.
+          <h3>5. Thiên nhiên tác động đến tâm hồn con người</h3>
+<hr>
+  <p>
+  Khi đứng trước cảnh biển trời rộng lớn, nhà thơ cảm nhận được sự vững vàng trong tâm hồn:
+  </p>
+
+  <blockquote>
+  “Phong ba bất động thiết tâm can”<br>
+  (Sóng gió chẳng lay chuyển được tâm can vững chắc.)
+  </blockquote>
+
+  <p>
+  Thiên nhiên không chỉ là cảnh đẹp mà còn giúp con người củng cố ý chí và tâm thế.
+  Tâm hồn con người trở nên bình tĩnh và mạnh mẽ khi hòa mình vào không gian rộng lớn của đất trời.
+  </p>
+
+  <hr>
+
+  <h3>6. Con người hòa mình vào không gian thiên nhiên và đời sống vùng biển</h3>
+<hr>
+  <p>
+  Ở hai câu cuối,
+  <blockquote>
+  "Vọng trung ngạn thảo thê thê lục, <br>
+Đạo thị phiên nhân trú bạc loan."
+  (Nhìn vào thấy bờ cỏ màu lục xanh dờn, <br>
+Nghe nói người thiểu số xưa từng đỗ thuyền trong vịnh.)
+  </blockquote>
+  Nguyễn Trãi nhìn thấy bờ cỏ xanh và nhớ đến những con thuyền từng neo đậu trong vịnh.
+  Điều này cho thấy thiên nhiên không tách rời đời sống con người mà gắn bó với sinh hoạt và lịch sử của vùng biển.
+  </p>
+
+  <p>
+  Nhờ vậy, cảnh Vân Đồn hiện lên như một không gian sống nơi thiên nhiên và con người cùng tồn tại hài hòa.
           `,
         },
       ],
@@ -974,6 +1175,197 @@ var markerThangLong = L.marker(thangLong, { icon: normalIcon })
       ],
     });
   });
+// ===== ẢI CHI LĂNG (LẠNG SƠN) =====
+var chiLang = [21.8514, 106.6297];
+
+var markerChiLang = L.marker(chiLang, { icon: normalIcon })
+  .addTo(map)
+  .on("click", function () {
+    highlightMarker(markerChiLang);
+    map.flyTo(chiLang, 12, {
+      duration: 1.5,
+    });
+
+    openSidebar({
+      title: "Ải Chi Lăng – Lạng Sơn",
+
+      slides: [
+        {
+          img: "img/Aichilang.jpg",
+          text: `
+<div class="sidebar-section">
+  <h3>1. Trong Bình Ngô đại cáo (1428)</h3>
+
+  <p><b>Tác phẩm nổi tiếng nhất nhắc đến Chi Lăng là:</b><br>
+  <a href="tacpham.html#binhngodaicao">Bình Ngô đại cáo</a></p>
+
+  <p><b>Đoạn nổi tiếng:</b></p>
+
+  <blockquote>
+    “Ngày mười tám, trận Chi Lăng, Liễu Thăng thất thế,<br>
+    Ngày hai mươi, trận Mã Yên, Liễu Thăng cụt đầu...”
+  </blockquote>
+
+  <p>
+    Ở đây Nguyễn Trãi nhắc đến trận Chi Lăng năm 1427,
+    nơi quân Lam Sơn tiêu diệt đạo quân viện binh nhà Minh
+    do Liễu Thăng chỉ huy.
+  </p>
+</div>
+          `,
+        },
+
+        {
+          img: "img/Aichilang2.jpg",
+          text: `
+          <hr>
+          <h2>Chiến thắng Chi Lăng</h2>
+
+<p>
+Ải Chi Lăng (Lạng Sơn) là cửa ngõ chiến lược bảo vệ vùng đồng bằng Bắc Bộ.
+Với địa hình thung lũng hẹp, hai bên là núi cao hiểm trở, nơi đây từ lâu
+được xem là vị trí thuận lợi để chặn đánh quân xâm lược từ phương Bắc.
+</p>
+
+<p>
+Năm 1427, trong cuộc khởi nghĩa Lam Sơn do <b>Lê Lợi</b> lãnh đạo,
+nghĩa quân đã tổ chức trận mai phục lớn tại Chi Lăng để chặn
+đạo viện binh của quân Minh do tướng <b>Liễu Thăng</b> chỉ huy.
+</p>
+
+<p>
+Khi quân Minh tiến sâu vào thung lũng, nghĩa quân bất ngờ tấn công.
+Liễu Thăng bị tiêu diệt, quân Minh hoảng loạn tháo chạy.
+Chiến thắng này mở đầu cho chuỗi thất bại của quân Minh và
+góp phần quyết định vào thắng lợi của khởi nghĩa Lam Sơn.
+</p>
+
+<p>
+Trong cuộc kháng chiến ấy, <b>Nguyễn Trãi</b> đóng vai trò quan trọng
+trong việc hoạch định chiến lược và cổ vũ tinh thần chiến đấu của nghĩa quân.
+</p>
+          `,
+        },
+
+        {
+          img: "img/Aichilang3.webp",
+          text: `
+          <h2>Ý nghĩa lịch sử</h2>
+
+<p>
+Chiến thắng Chi Lăng là một trong những trận đánh quan trọng
+nhất của cuộc khởi nghĩa Lam Sơn, góp phần làm tan rã lực lượng
+viện binh của quân Minh và buộc chúng phải rút quân khỏi Đại Việt.
+</p>
+
+<p>
+Trong <b>Bình Ngô đại cáo</b>, Nguyễn Trãi đã khẳng định
+tính chính nghĩa của cuộc kháng chiến:
+</p>
+
+<blockquote>
+“Việc nhân nghĩa cốt ở yên dân,<br>
+Quân điếu phạt trước lo trừ bạo.”
+</blockquote>
+
+<p>
+Những chiến thắng như Chi Lăng không chỉ thể hiện tài
+chiến lược của nghĩa quân Lam Sơn mà còn phản ánh
+tư tưởng nhân nghĩa của Nguyễn Trãi:
+chiến đấu để bảo vệ nhân dân và giành lại độc lập cho đất nước.
+</p>
+          `,
+        },
+      ],
+    });
+  });
+// ===== LÀNG NHỊ KHÊ (THƯỜNG TÍN - HÀ NỘI) =====
+var nhiKhe = [20.8433, 105.8506];
+
+var markerNhiKhe = L.marker(nhiKhe, { icon: normalIcon })
+  .addTo(map)
+  .on("click", function () {
+    highlightMarker(markerNhiKhe);
+    map.flyTo(nhiKhe, 13, {
+      duration: 1.5,
+    });
+
+    openSidebar({
+      title: "Làng Nhị Khê – Thường Tín, Hà Nội",
+
+      slides: [
+        {
+          img: "img/nhikhe.jpg",
+          text: `
+          <h3>Làng Nhị Khê – quê hương của Nguyễn Trãi</h3>
+
+<p><b>Làng Nhị Khê</b> là quê cha của Nguyễn Trãi, nơi gắn bó mật thiết với cuộc đời và sự nghiệp của ông. Và đã được nhắc đến trong tác phẩm <a href="tacpham.html#tanghuunhan">Tặng hữu nhân</a> của Nguyễn Trãi cùng nhiều tác phẩm khác khi ông nhắc đến quê cha.</p>
+<blockquote>
+<i>“Tha niên Nhị Khê ước,”</i>
+(Chúng ta đã hẹn nhau nơi Nhị Khê này,)
+</blockquote>
+
+
+<h4>1. Vị trí địa lý</h4>
+<p>
+Nhị Khê là một ngôi làng thuộc xã Nhị Khê, huyện Thường Tín, nằm ở phía nam Hà Nội.
+Đây là vùng đất có truyền thống văn hiến lâu đời, nổi tiếng với nhiều nhân vật lịch sử
+và nghề thủ công truyền thống.
+</p>
+          `,
+        },
+
+        {
+          img: "img/nhikhe2.webp",
+          text: `
+<h4>2. Mối liên hệ với Nguyễn Trãi</h4>
+
+<p>
+Nguyễn Trãi sinh năm 1380 trong một gia đình khoa bảng. Cha ông là
+<b>Nguyễn Phi Khanh</b> – một trí thức nổi tiếng thời cuối nhà Trần.
+</p>
+
+<p>
+Nhị Khê được xem là quê cha và nơi thờ tự chính của Nguyễn Trãi,
+nơi lưu giữ nhiều di tích gắn với cuộc đời ông.
+</p>
+          `,
+        },
+
+        {
+          img: "img/nhikhe3.webp",
+          text: `
+<h4>3. Di tích liên quan đến Nguyễn Trãi tại Nhị Khê</h4>
+
+<p>Tại làng Nhị Khê hiện còn nhiều di tích tưởng niệm ông, tiêu biểu là:</p>
+
+<ul>
+<li><b>Đền thờ Nguyễn Trãi</b> – nơi thờ Nguyễn Trãi và gia tộc.</li>
+<li><b>Nhà lưu niệm Nguyễn Trãi</b> – lưu giữ tư liệu, hiện vật về cuộc đời và sự nghiệp của ông.</li>
+</ul>
+
+<p>
+Những di tích này trở thành địa điểm văn hóa – lịch sử quan trọng,
+giúp hậu thế tưởng nhớ công lao của vị anh hùng dân tộc và danh nhân văn hóa.
+</p>
+
+<h4>4. Ý nghĩa của quê hương Nhị Khê</h4>
+
+<p>
+Làng Nhị Khê không chỉ là nơi sinh trưởng của Nguyễn Trãi mà còn góp phần
+hình thành nhân cách, tư tưởng nhân nghĩa và tình yêu đất nước của ông.
+</p>
+
+<p>
+Ngày nay, nơi đây được xem là một địa chỉ văn hóa tiêu biểu,
+gắn với tên tuổi của vị anh hùng dân tộc và danh nhân văn hóa thế giới
+<b>Nguyễn Trãi</b>.
+</p>
+          `,
+        },
+      ],
+    });
+  });
 // ================= SIDEBAR =================
 let slides = [];
 let slideIndex = 0;
@@ -986,7 +1378,11 @@ function openSidebar(data) {
 
   updateSlide();
 
-  document.getElementById("sidebar").classList.add("active");
+  const sidebar = document.getElementById("sidebar");
+
+  sidebar.classList.remove("closing");
+  sidebar.classList.add("active");
+
   document.getElementById("mainHeader").classList.add("hide");
 }
 
@@ -1018,7 +1414,15 @@ function goHome() {
 
 // ĐÓNG SIDEBAR
 function closeSidebar() {
-  document.getElementById("sidebar").classList.remove("active");
+  const sidebar = document.getElementById("sidebar");
+
+  sidebar.classList.remove("active");
+  sidebar.classList.add("closing");
+
+  setTimeout(() => {
+    sidebar.classList.remove("closing");
+  }, 450);
+
   document.getElementById("mainHeader").classList.remove("hide");
 }
 // ===== NÚT X =====
@@ -1044,6 +1448,8 @@ function focusPlace(place) {
     lamkinh: { coords: lamKinh, zoom: 13 },
     ducthuy: { coords: ducThuy, zoom: 13 },
     thanglong: { coords: thangLong, zoom: 13 },
+    aichilang: { coords: chiLang, zoom: 13 },
+    nhikhe: { coords: nhiKhe, zoom: 13 },
   };
 
   const loc = locations[place];

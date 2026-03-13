@@ -12,6 +12,16 @@
         <span class="home-btn" onclick="goHome()">🏠</span>
         <h1 class="map-title">CÁC TÁC PHẨM THƠ</h1>
       </div>
+      <div class="smart-search">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="🔎 Tìm trong tác phẩm..."
+          autocomplete="off"
+        />
+
+        <div id="suggestions"></div>
+      </div>
     </header>
 
     <script>
@@ -794,5 +804,129 @@
         Ai nấy đều hay. <br />
       </div>
     </div>
+    <div class="poem">
+      <div class="poem-title" id="tanghuunhan"><b>Tặng hữu nhân</b></div>
+
+      <div class="poem-original">
+        Bần, bệnh dư liên nhữ,<br />
+        Sơ cuồng, nhữ tự dư.<br />
+        Đồng vi thiên lý khách,<br />
+        Câu độc sổ hàng thư.<br />
+        Hồ lạc tri hà dụng,<br />
+        Thê trì lượng hữu dư.<br />
+        Tha niên Nhị Khê ước,<br />
+        Đoản lạp hạ xuân sừ.
+      </div>
+
+      <div class="poem-translation-title"><b>Dịch nghĩa</b></div>
+
+      <div class="poem-translation">
+        Tôi thương anh nghèo mà có bệnh,<br />
+        Và anh cũng giống tôi tính ngang tàng.<br />
+        Cũng là khách ngàn dặm như nhau,<br />
+        Và cũng đã từng đọc mấy hàng chữ sách.<br />
+        Hai ta như quả bầu rỗng biết làm được gì đây,<br />
+        Nhưng rong chơi thì lại có thừa.<br />
+        Chúng ta đã hẹn nhau nơi Nhị Khê này,<br />
+        Cùng đội nón cùng bừa buổi xuân sang.
+      </div>
+    </div>
+    <!-- Thanh tìm kiếm -->
+    <div id="searchBox" class="search-box">
+      <input type="text" id="searchInput" placeholder="Tìm trong tác phẩm..." />
+      <button onclick="findText()">Tìm</button>
+      <button onclick="nextResult()">Tiếp</button>
+      <button onclick="closeSearch()">X</button>
+    </div>
+    <script>
+      const input = document.getElementById("searchInput");
+      const suggestionsBox = document.getElementById("suggestions");
+
+      let matches = [];
+      let currentIndex = -1;
+
+      input.addEventListener("input", function () {
+        let text = input.value.toLowerCase();
+
+        if (text.length < 2) {
+          suggestionsBox.style.display = "none";
+          return;
+        }
+
+        let allText = document.body.innerText.toLowerCase();
+
+        let words = [...new Set(allText.split(/\s+/))];
+
+        let suggestions = words.filter((w) => w.includes(text)).slice(0, 8);
+
+        suggestionsBox.innerHTML = "";
+
+        suggestions.forEach((word) => {
+          let div = document.createElement("div");
+          div.className = "suggestion-item";
+          div.innerText = word;
+
+          div.onclick = () => {
+            input.value = word;
+            suggestionsBox.style.display = "none";
+            searchText();
+          };
+
+          suggestionsBox.appendChild(div);
+        });
+
+        suggestionsBox.style.display = "block";
+      });
+
+      /* ENTER để tìm */
+
+      input.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") {
+          searchText();
+        }
+      });
+
+      function searchText() {
+        let keyword = input.value;
+
+        if (!keyword) return;
+
+        removeHighlights();
+
+        const regex = new RegExp(keyword, "gi");
+
+        document.body.innerHTML = document.body.innerHTML.replace(
+          regex,
+          (match) => `<mark>${match}</mark>`,
+        );
+
+        matches = document.querySelectorAll("mark");
+
+        currentIndex = -1;
+
+        nextResult();
+      }
+
+      function nextResult() {
+        if (matches.length === 0) return;
+
+        currentIndex++;
+
+        if (currentIndex >= matches.length) {
+          currentIndex = 0;
+        }
+
+        matches[currentIndex].scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+        });
+      }
+
+      function removeHighlights() {
+        document.querySelectorAll("mark").forEach((el) => {
+          el.outerHTML = el.innerText;
+        });
+      }
+    </script>
   </body>
 </html>

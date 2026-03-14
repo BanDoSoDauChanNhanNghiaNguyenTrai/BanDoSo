@@ -12,18 +12,14 @@
         <span class="home-btn" onclick="goHome()">🏠</span>
         <h1 class="map-title">CÁC TÁC PHẨM THƠ</h1>
       </div>
-      <div class="smart-search">
-        <input
-          type="text"
-          id="searchInput"
-          placeholder="🔎 Tìm trong tác phẩm..."
-          autocomplete="off"
-        />
-
-        <div id="suggestions"></div>
-      </div>
     </header>
-
+    <div class="search-box">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Tìm chữ trong trang..."
+      />
+    </div>
     <script>
       function goHome() {
         window.location.href = "index.html";
@@ -927,6 +923,30 @@
           el.outerHTML = el.innerText;
         });
       }
+    </script>
+    <script>
+      document
+        .getElementById("searchInput")
+        .addEventListener("keypress", function (e) {
+          if (e.key === "Enter") {
+            let keyword = this.value.toLowerCase();
+
+            let elements = document.querySelectorAll(".poem");
+
+            for (let el of elements) {
+              if (el.innerText.toLowerCase().includes(keyword)) {
+                el.scrollIntoView({
+                  behavior: "smooth",
+                  block: "center",
+                });
+
+                return;
+              }
+            }
+
+            alert("Không tìm thấy nội dung!");
+          }
+        });
     </script>
   </body>
 </html>

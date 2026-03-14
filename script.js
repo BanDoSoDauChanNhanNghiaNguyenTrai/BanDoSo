@@ -86,7 +86,7 @@ fetch("data/vietnam.geojson")
         layer.on({
           mouseover: function (e) {
             e.target.setStyle({
-              fillColor: "#ffff00",
+              fillColor: "#ffff60",
               fillOpacity: 0.6,
             });
           },
@@ -348,37 +348,146 @@ var markerLamKinh = L.marker(lamKinh, { icon: normalIcon })
         {
           img: "img/Lamkinh.jpg",
           text: `
-        <b>TÊN ĐỊA DANH:</b> Lam Kinh – Lam Sơn<br><br>
-        Đây là quê hương Lê Lợi và gắn bó sâu sắc với cuộc đời Nguyễn Trãi
-        trong khởi nghĩa Lam Sơn.
+        <h3>Lịch sử của Lam Kinh – Lam Sơn gắn với cuộc đời Nguyễn Trãi và khởi nghĩa Lam Sơn</h3>
 
-        Không gian núi rừng Thanh Hóa đã ảnh hưởng lớn đến cảm hứng
-        thiên nhiên và tư tưởng nhân nghĩa của ông.
+<hr>
+
+<h3>1. Lam Sơn – nơi khởi nguồn của cuộc khởi nghĩa chống quân Minh</h3>
+
+<p><b>Lam Sơn</b> (thuộc Thanh Hóa) là quê hương của <b>Lê Lợi</b>. Tại đây, năm 1418, Lê Lợi đã dựng cờ khởi nghĩa chống lại ách đô hộ của nhà Minh, mở đầu cuộc <b>khởi nghĩa Lam Sơn</b> kéo dài gần mười năm.</p>
+
+<p>Địa hình Lam Sơn gồm núi rừng hiểm trở, sông suối và thung lũng, rất thuận lợi cho chiến tranh du kích. Chính địa thế này đã giúp nghĩa quân:</p>
+
+<ul>
+<li>xây dựng căn cứ lâu dài</li>
+<li>bảo toàn lực lượng trong giai đoạn đầu khó khăn</li>
+<li>từng bước mở rộng lực lượng và địa bàn hoạt động.</li>
+</ul>
+
+<p>Lam Sơn vì vậy được xem là <b>cái nôi của cuộc kháng chiến giành lại độc lập cho Đại Việt</b>.</p>
+
+<hr>
+
+<h3>2. Nguyễn Trãi tham gia khởi nghĩa Lam Sơn</h3>
+
+<p>Khoảng năm 1420, <b>Nguyễn Trãi</b> tìm đến Lam Sơn để phò tá Lê Lợi. Ông trở thành <b>quân sư quan trọng</b> của nghĩa quân.</p>
+
+<p>Vai trò của Nguyễn Trãi trong khởi nghĩa rất lớn:</p>
+
+<ul>
+<li>đề ra chiến lược và sách lược quân sự</li>
+<li>soạn thảo nhiều thư từ, chiếu dụ kêu gọi nhân dân và quân địch quy thuận</li>
+<li>xây dựng tư tưởng <i>“lấy nhân nghĩa thắng hung tàn, lấy chí nhân thay cường bạo”</i></li>
+</ul>
+
+<p>Những văn kiện này được tập hợp trong tác phẩm nổi tiếng <b><i>Quân trung từ mệnh tập</i></b></p>
+
+<p>Nhờ chiến lược đúng đắn và sự đoàn kết của nhân dân, nghĩa quân Lam Sơn ngày càng lớn mạnh và giành nhiều thắng lợi.</p>
         `,
         },
 
         {
           img: "img/Lamkinh2.jpg",
           text: `
-        <b>Không gian lịch sử – anh hùng ca</b>
-        <ul>
-          <li>Trung tâm cuộc khởi nghĩa Lam Sơn</li>
-          <li>Nơi hình thành tư tưởng "lấy dân làm gốc"</li>
-          <li>Gắn với Bình Ngô đại cáo</li>
-        </ul>
+        <h3>3. Lam Kinh – kinh đô thứ hai của triều Lê</h3>
+
+<p>Sau khi đánh bại quân Minh và giành độc lập năm 1427, <b>Lê Lợi</b> lên ngôi vua, lập ra <b>Nhà Lê sơ</b>.</p>
+
+<p>Ông cho xây dựng <b>Lam Kinh</b> tại quê hương Lam Sơn. Lam Kinh trở thành:</p>
+
+<ul>
+<li>kinh đô thứ hai của triều Lê (bên cạnh <b>Thăng Long</b>)</li>
+<li>nơi tổ chức các nghi lễ quan trọng của hoàng tộc</li>
+<li>khu lăng tẩm của các vua và hoàng hậu nhà Lê.</li>
+</ul>
+
+<p>Lam Kinh vì vậy vừa là <b>biểu tượng chiến thắng của khởi nghĩa Lam Sơn</b>, vừa là nơi ghi dấu công lao của những người sáng lập triều đại.</p>
+
+<hr>
+
+<h3>4. Mối liên hệ giữa Lam Sơn – Lam Kinh và cuộc đời Nguyễn Trãi</h3>
+
+<p>Lam Sơn là nơi đánh dấu <b>bước ngoặt lớn trong cuộc đời Nguyễn Trãi</b>. Tại đây ông:</p>
+
+<ul>
+<li>tìm thấy con đường cứu nước sau khi đất nước bị nhà Minh đô hộ</li>
+<li>gắn bó với Lê Lợi và nghĩa quân trong suốt cuộc kháng chiến</li>
+<li>đóng góp trí tuệ để đưa cuộc khởi nghĩa đến thắng lợi.</li>
+</ul>
+
+<p>Những tư tưởng lớn của Nguyễn Trãi như:</p>
+
+<ul>
+<li>nhân nghĩa</li>
+<li>lấy dân làm gốc</li>
+<li>độc lập dân tộc</li>
+</ul>
+
+<p>đều được hình thành và phát triển mạnh mẽ trong thời gian ông hoạt động tại Lam Sơn.</p>
         `,
         },
 
         {
           img: "img/Lamkinh3.jpg",
           text: `
-        <b>Giá trị văn học</b>
-        <ul>
-          <li>Hình thành cảm hứng yêu nước trong thơ Nguyễn Trãi</li>
-          <li>Kết hợp thiên nhiên và lý tưởng chính trị</li>
-          <li>Tạo nên hình tượng nhà nho hành đạo</li>
-        </ul>
-        `,
+        <h3>Trích đoạn <i>Bình Ngô đại cáo</i></h3>
+<hr>
+<blockquote class="classical-text">
+Dư:<br>
+Phấn tích Lam Sơn,<br>
+Thê thân hoang dã.<br>
+Niệm thế thù khởi khả cộng đới,<br>
+Thệ nghịch tặc nan dữ câu sinh.<br>
+Thống tâm tật thủ giả thuỳ thập dư niên,<br>
+Thường đảm ngoạ tân giả cái phi nhất nhật.<br>
+Phát phẫn vong thực, mỗi nghiên đàm thao lược chi thư,<br>
+Tức cổ nghiệm kim, tế suy cứu hưng vong chi lý.<br>
+Đồ hồi chi chí,<br>
+Ngộ mị bất vong.<br>
+Đương nghĩa kỳ sơ khởi chi thì,<br>
+Chính tặc thế phương trương chi nhật.
+</blockquote>
+<hr>
+<p><b>Câu thơ mở đầu:</b></p>
+
+<blockquote>
+“Thê thân hoang dã”
+</blockquote>
+
+<p>Gợi ra hình ảnh <b>Lam Sơn</b> với núi rừng hoang sơ, hùng vĩ và hiểm trở. Đây là đặc điểm địa lý thực tế của vùng núi <b>Thanh Hóa</b>, nơi trở thành căn cứ đầu tiên của cuộc khởi nghĩa Lam Sơn. Chính địa thế núi rừng này đã tạo điều kiện cho nghĩa quân tồn tại trong giai đoạn đầu khó khăn của cuộc khởi nghĩa.</p>
+
+<hr>
+<p><b>Những câu thơ tiếp theo:</b></p>
+
+<blockquote>
+“Niệm thế thù khởi khả cộng đới,<br>
+Thệ nghịch tặc nan dữ câu sinh.”
+</blockquote>
+<p>Thể hiện ý chí <b>không thể chung sống với giặc</b>. Qua đó, Lam Sơn trở thành nơi bùng lên ý chí phục thù và khôi phục đất nước. Đây cũng là nơi <b>Lê Lợi dựng cờ khởi nghĩa</b>, tập hợp nghĩa sĩ và phát động cuộc chiến chống quân Minh.</p>
+<hr>
+<h3>Hai câu cuối đặc biệt quan trọng</h3>
+
+<blockquote>
+“Dương nghĩa kỳ sở khởi chi thì,<br>
+Chính tắc thế phương trương chi nhật.”
+</blockquote>
+
+<p><b>Nghĩa là:</b> từ lúc ban đầu đã nêu cao chính nghĩa, và khi thời cơ đến thì chính nghĩa ấy lan rộng khắp nơi.</p>
+
+<p>Điều này phản ánh tư tưởng lớn của <b>Nguyễn Trãi</b>:</p>
+
+<ul>
+<li>cuộc khởi nghĩa Lam Sơn không chỉ là chiến tranh vũ lực</li>
+<li>mà là cuộc chiến <b>chính nghĩa vì dân tộc và nhân dân</b>.</li>
+</ul>
+
+<p>Tư tưởng này sau đó được ông phát triển rõ trong <i>Bình Ngô đại cáo</i> với câu nổi tiếng:</p>
+
+<blockquote>
+“Đem đại nghĩa để thắng hung tàn,<br>
+Lấy chí nhân để thay cường bạo.”
+</blockquote>
+`,
         },
       ],
     });
@@ -1416,9 +1525,35 @@ Bốn biển từ nay hết cảnh sóng kình.)</span>
         {
           img: "img/Thanphu3.jpg",
           text: `
-          <b>Liên hệ văn học</b><br>
-          Gợi không gian lịch sử rộng lớn trong tư duy
-          địa – chính trị và ý thức quốc gia thời Nguyễn Trãi.
+          <h3>Bài thơ: <i>Quá Thần Phù hải khẩu</i></h3>
+
+<p><b>Tác giả:Nguyễn Trãi</b></p>
+<hr>
+<p>
+Thần Phù hải khẩu dạ trung qua,<br>
+Nại thử phong thanh nguyệt bạch hà.<br>
+Giáp ngạn thiên phong bài ngọc duẩn,<br>
+Trung lưu nhất thuỷ tẩu thanh xà.<br>
+Giang sơn như tạc anh hùng thệ,<br>
+Thiên địa vô tình sự biến đa.<br>
+Hồ Việt nhất gia kim hạnh đổ,<br>
+Tứ minh tòng thử tức kình ba.
+</p>
+
+<h4>Dịch nghĩa</h4>
+
+<p>
+Qua cửa khẩu Thần Phù vào lúc giữa đêm,<br>
+Gió mát trăng thanh quá, làm sao đây?<br>
+Gần bờ nhìn ngọn núi bày ra như búp măng ngọc,<br>
+Giữa dòng con nước chảy như rắn xanh.<br>
+Non sông như cũ nhưng anh hùng đã mất,<br>
+Trời đất vô tình tạo nên bao nhiêu biến đổi.<br>
+Nay được thấy Hồ, Việt một nhà là điều may mắn,<br>
+Bốn biển từ nay hết cảnh sóng kình.
+</p>
+
+<hr>
           `,
         },
       ],
@@ -1439,45 +1574,114 @@ var markerThangLong = L.marker(thangLong, { icon: normalIcon })
     });
 
     openSidebar({
-      title: "Thăng Long – Hà Nội",
+      title: "Hoàng thành Thăng Long – Hà Nội",
 
       slides: [
         {
           img: "img/Thanglong.jpg",
           text: `
-          <b>TÊN ĐỊA DANH:</b> Thăng Long (Hà Nội)<br><br>
-          Kinh thành của Đại Việt qua nhiều triều đại,
-          trung tâm chính trị – văn hóa lớn của đất nước.
+          <h3>Lịch sử của Hoàng thành Thăng Long gắn với cuộc đời của Nguyễn Trãi</h3>
+
+<hr>
+
+<h3>1. Hoàng thành Thăng Long – trung tâm quyền lực mà Nguyễn Trãi hoạt động</h3>
+
+<p><b>Hoàng thành Thăng Long</b> là trung tâm chính trị của quốc gia từ thời <b>Nhà Lý, Nhà Trần đến Nhà Lê sơ</b>.</p>
+
+<p>Sau khi cuộc khởi nghĩa Lam Sơn do <b>Lê Lợi</b> lãnh đạo thắng lợi năm 1427, kinh đô được khôi phục tại Thăng Long. Từ đây, Hoàng thành trở thành <b>nơi điều hành quốc gia và là trung tâm chính trị lớn nhất Đại Việt</b>.</p>
+
+<p><b>Nguyễn Trãi</b>, với vai trò <b>khai quốc công thần</b>, đã trực tiếp tham gia các hoạt động triều chính tại Hoàng thành:</p>
+
+<ul>
+<li>bàn bạc chiến lược xây dựng đất nước sau chiến tranh</li>
+<li>tham gia hoạch định chính sách đối nội và đối ngoại</li>
+<li>soạn thảo nhiều văn thư quan trọng của triều đình.</li>
+</ul>
+
+<hr>
+
+<h3>2. Nơi công bố những văn kiện chính trị quan trọng của Nguyễn Trãi</h3>
+
+<p>Sau chiến thắng chống quân Minh, tại Thăng Long đã công bố bản tuyên ngôn nổi tiếng:</p>
+
+<ul>
+<li><a href="tacpham.html#binhngodaicao"><b>Bình Ngô đại cáo</b></a></li>
+</ul>
+
+<p>Đây được xem là <b>tuyên ngôn độc lập của Đại Việt thế kỷ XV</b>, khẳng định:</p>
+
+<ul>
+<li>chủ quyền dân tộc</li>
+<li>sức mạnh của nhân dân</li>
+<li>tư tưởng “lấy nhân nghĩa làm gốc”.</li>
+</ul>
+
+<p>Văn kiện này gắn liền với không gian chính trị của Hoàng thành, nơi triều đình chính thức tuyên bố nền độc lập sau hơn 20 năm bị nhà Minh đô hộ.</p>
           `,
         },
 
         {
           img: "img/Thanglong2.jpg",
           text: `
-          <b>Không gian lịch sử</b>
-          <ul>
-            <li>Nơi triều đình Lê sơ đặt kinh đô</li>
-            <li>Trung tâm chính trị của quốc gia</li>
-            <li>Chứng kiến nhiều biến động thời đại</li>
-          </ul>
+          <h3>3. Hoàng thành – nơi Nguyễn Trãi thực hiện lý tưởng trị quốc</h3>
+
+<p>Trong thời gian làm quan tại Thăng Long, Nguyễn Trãi luôn theo đuổi lý tưởng <b>trị quốc an dân</b>. Ông nhiều lần dâng sớ lên vua đề nghị:</p>
+
+<ul>
+<li>giảm sưu thuế cho dân</li>
+<li>chăm lo đời sống nông nghiệp</li>
+<li>khôi phục kinh tế sau chiến tranh.</li>
+</ul>
+
+<p>Những tư tưởng này được thể hiện rõ trong các tác phẩm như:</p>
+
+<ul>
+<li><i>Quân trung từ mệnh tập</i></li>
+<li><i>Ức Trai thi tập</i></li>
+</ul>
+
+<p>Hoàng thành Thăng Long vì thế không chỉ là nơi ông làm quan mà còn là <b>không gian thực hiện lý tưởng chính trị của mình</b>.</p>
+
+<hr>
+
+<h3>4. Hoàng thành chứng kiến những thăng trầm trong sự nghiệp của ông</h3>
+
+<p>Dù là công thần lớn của triều đình, Nguyễn Trãi vẫn gặp nhiều mâu thuẫn trong triều chính.</p>
+
+<p>Do sự ganh ghét của một số quan lại, ông nhiều lần:</p>
+
+<ul>
+<li>bị nghi kỵ</li>
+<li>xin cáo quan về ở ẩn tại <b>Côn Sơn</b>.</li>
+</ul>
+
+<p>Sau đó, ông vẫn được triều đình mời trở lại phục vụ đất nước.</p>
           `,
         },
 
         {
           img: "img/Thanglong3.jpg",
           text: `
-          <b>Liên hệ Nguyễn Trãi</b>
-          <ul>
-            <li>Nơi ông tham gia triều chính</li>
-            <li>Đóng góp vào chiến lược kháng Minh</li>
-            <li>Gắn với tư tưởng trị quốc – an dân</li>
-          </ul>
+          <h3>5. Hoàng thành gián tiếp liên quan đến bi kịch cuối đời của Nguyễn Trãi</h3>
+
+<p>Một biến cố lớn trong lịch sử triều Lê là <b>Vụ án Lệ Chi Viên</b>.</p>
+
+<p>Sau khi vua <b>Lê Thái Tông</b> qua đời đột ngột tại Lệ Chi Viên (nay thuộc thôn Đại Lai, xã Đại Lai, huyện Gia Bình, tỉnh Bắc Ninh), Nguyễn Trãi và gia đình bị kết tội và chịu án tru di.</p>
+
+<p>Mãi đến năm 1464, vua <b>Lê Thánh Tông</b> mới minh oan cho ông.</p>
+
+<p>Như vậy, Hoàng thành Thăng Long cũng là <b>trung tâm quyền lực gắn với cả vinh quang lẫn bi kịch trong cuộc đời Nguyễn Trãi</b>.</p>
           `,
         },
       ],
     });
   });
-addLocationItem("Thăng Long", thangLong, markerThangLong, "dongbang");
+addLocationItem(
+  "Hoàng thành Thăng Long",
+  thangLong,
+  markerThangLong,
+  "dongbang",
+);
 // ===== ẢI CHI LĂNG (LẠNG SƠN) =====
 var chiLang = [21.8514, 106.6297];
 
@@ -1610,7 +1814,7 @@ var markerNhiKhe = L.marker(nhiKhe, { icon: normalIcon })
 </blockquote>
 
 
-<h4>1. Vị trí địa lý</h4>
+<h3>1. Vị trí địa lý</h3>
 <p>
 Nhị Khê là một ngôi làng thuộc xã Nhị Khê, huyện Thường Tín, nằm ở phía nam Hà Nội.
 Đây là vùng đất có truyền thống văn hiến lâu đời, nổi tiếng với nhiều nhân vật lịch sử
@@ -1622,7 +1826,7 @@ và nghề thủ công truyền thống.
         {
           img: "img/nhikhe2.webp",
           text: `
-<h4>2. Mối liên hệ với Nguyễn Trãi</h4>
+<h3>2. Mối liên hệ với Nguyễn Trãi</h3>
 
 <p>
 Nguyễn Trãi sinh năm 1380 trong một gia đình khoa bảng. Cha ông là
@@ -1639,7 +1843,7 @@ nơi lưu giữ nhiều di tích gắn với cuộc đời ông.
         {
           img: "img/nhikhe3.webp",
           text: `
-<h4>3. Di tích liên quan đến Nguyễn Trãi tại Nhị Khê</h4>
+<h3>3. Di tích liên quan đến Nguyễn Trãi tại Nhị Khê</h3>
 
 <p>Tại làng Nhị Khê hiện còn nhiều di tích tưởng niệm ông, tiêu biểu là:</p>
 
@@ -1653,7 +1857,7 @@ Những di tích này trở thành địa điểm văn hóa – lịch sử quan
 giúp hậu thế tưởng nhớ công lao của vị anh hùng dân tộc và danh nhân văn hóa.
 </p>
 
-<h4>4. Ý nghĩa của quê hương Nhị Khê</h4>
+<h3>4. Ý nghĩa của quê hương Nhị Khê</h3>
 
 <p>
 Làng Nhị Khê không chỉ là nơi sinh trưởng của Nguyễn Trãi mà còn góp phần
@@ -1670,7 +1874,110 @@ gắn với tên tuổi của vị anh hùng dân tộc và danh nhân văn hóa
       ],
     });
   });
-addLocationItem("Nhị Khê", nhiKhe, markerNhiKhe, "dongbang");
+addLocationItem("Làng Nhị Khê", nhiKhe, markerNhiKhe, "dongbang");
+// ===== Chùa Đông Sơn =====
+var chuaDongSon = [19.850000574259662, 105.78309528052783];
+
+var markerchuaDongSon = L.marker(chuaDongSon, { icon: normalIcon })
+  .addTo(map)
+  .on("click", function () {
+    highlightMarker(markerchuaDongSon);
+    map.flyTo(chuaDongSon, 13, {
+      duration: 1.5,
+    });
+
+    openSidebar({
+      title: "Chùa Đông Sơn (Thanh Hóa)",
+
+      slides: [
+        {
+          img: "img/chuadongson.png",
+          text: `
+          <h3>1. Chùa Đông Sơn trong không gian lịch sử Thanh Hóa</h3>
+
+<p>
+Chùa Đông Sơn nằm ở vùng đất Thanh Hóa – khu vực từng là trung tâm căn cứ của
+cuộc kháng chiến Lam Sơn do <b>Lê Lợi</b> lãnh đạo trong Khởi nghĩa Lam Sơn.
+</p>
+
+<p>
+Trong thời kỳ đầu thế kỷ XV, vùng Thanh Hóa không chỉ là căn cứ quân sự
+mà còn là không gian văn hóa – tín ngưỡng quan trọng, nơi tồn tại nhiều
+chùa chiền và di tích Phật giáo. Chùa Đông Sơn là một trong những địa điểm
+gắn với đời sống tinh thần của vùng đất này.
+</p>
+          `,
+        },
+
+        {
+          img: "img/chuadongson2.webp",
+          text: `
+<h3>2. Mối liên hệ với hoạt động của Nguyễn Trãi trong khởi nghĩa Lam Sơn</h3>
+
+<p>
+Trong quá trình tham gia khởi nghĩa Lam Sơn, <b>Nguyễn Trãi</b> nhiều lần
+hoạt động và đi lại ở khu vực Thanh Hóa – nơi tập trung các căn cứ nghĩa quân.
+</p>
+
+<p>
+Những địa điểm như Lam Sơn, Lam Kinh và các chùa cổ trong vùng,
+trong đó có chùa Đông Sơn, trở thành không gian sinh hoạt tinh thần
+của nghĩa quân và các trí thức yêu nước.
+</p>
+
+<ul>
+<li>nghĩa quân có thể nghỉ chân và bàn bạc việc quân</li>
+<li>các trí thức như Nguyễn Trãi suy ngẫm về vận mệnh đất nước</li>
+<li>nuôi dưỡng tư tưởng nhân nghĩa và lòng yêu nước</li>
+</ul>
+<h3>3. Không gian văn hóa – tôn giáo ảnh hưởng đến tư tưởng Nguyễn Trãi</h3>
+
+<p>
+Các chùa cổ ở Thanh Hóa, bao gồm chùa Đông Sơn,
+thể hiện truyền thống Phật giáo lâu đời của vùng đất này.
+</p>
+
+<p>
+Không gian chùa chiền thanh tịnh góp phần nuôi dưỡng trong Nguyễn Trãi:
+</p>
+
+<ul>
+<li>tinh thần từ bi của Phật giáo</li>
+<li>tư tưởng khoan hòa và nhân nghĩa</li>
+<li>lối sống hướng nội và suy tư triết lý</li>
+</ul>
+
+<p>
+Những yếu tố này sau đó được thể hiện rõ trong nhiều tác phẩm của ông
+như <b>Ức Trai thi tập</b>, nơi thiên nhiên và đời sống tinh thần hòa quyện.
+</p>
+          `,
+        },
+
+        {
+          img: "img/chuadongson3.jpg",
+          text: `
+<h3>4. Ý nghĩa của chùa Đông Sơn trong bối cảnh lịch sử Lam Sơn</h3>
+
+<ul>
+<li>là không gian văn hóa – tâm linh của vùng căn cứ</li>
+<li>góp phần gắn kết tinh thần của nghĩa quân và nhân dân</li>
+<li>tạo môi trường để các lãnh tụ và trí thức suy nghĩ về con đường cứu nước</li>
+</ul>
+
+<p>
+<b>Kết luận:</b> Chùa Đông Sơn tuy không phải trung tâm chính trị của
+khởi nghĩa Lam Sơn nhưng nằm trong không gian văn hóa và lịch sử
+của vùng Thanh Hóa – nơi Nguyễn Trãi hoạt động và phò tá Lê Lợi.
+Di tích này góp phần phản ánh bối cảnh văn hóa và tinh thần
+đã nuôi dưỡng lý tưởng nhân nghĩa và khát vọng cứu nước của Nguyễn Trãi.
+</p>
+          `,
+        },
+      ],
+    });
+  });
+addLocationItem("Chùa Đông Sơn", chuaDongSon, markerchuaDongSon, "bactrungbo");
 // ================= SIDEBAR =================
 let slides = [];
 let slideIndex = 0;
@@ -1755,6 +2062,7 @@ function focusPlace(place) {
     thanglong: { coords: thangLong, zoom: 13 },
     aichilang: { coords: chiLang, zoom: 13 },
     nhikhe: { coords: nhiKhe, zoom: 13 },
+    chuadongson: { coords: chuaDongSon, zoom: 13 },
   };
 
   const loc = locations[place];

@@ -1163,3 +1163,124 @@ mark{
 
   background:linear-gradient(145deg,#b30000,#8b0000);
 }
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width:768px){
+
+/* TOPBAR */
+
+.topbar{
+  padding:10px 15px;
+}
+
+.map-title{
+  font-size:18px;
+}
+
+.nav-menu{
+  display:none; /* ẩn menu dài trên mobile */
+}
+
+/* MAP */
+
+#map{
+  height:85vh;
+}
+
+/* SIDEBAR */
+
+#sidebar{
+  width:100%;
+}
+
+/* DANH SÁCH ĐỊA DANH */
+
+#locationList{
+  width:100%;
+  top:auto;
+  bottom:0;
+  height:45%;
+  border-right:none;
+  border-top:6px solid #8b0000;
+}
+
+/* SEARCH */
+
+.smart-search{
+  width:85%;
+  right:7%;
+  top:70px;
+}
+
+/* POEM */
+
+.poem{
+  width:auto;
+  margin:25px 15px;
+  padding:20px;
+  font-size:16px;
+}
+
+/* TITLE */
+
+.poem-title{
+  flex-direction:column;
+  align-items:flex-start;
+  gap:10px;
+  font-size:22px;
+}
+
+/* BUTTON */
+
+.place-pill-btn{
+  font-size:13px;
+  padding:8px 14px;
+}
+
+/* IMAGE */
+
+.main-image{
+  height:auto;
+}
+
+/* TOC PAGE */
+
+.toc-container{
+  grid-template-columns:1fr;
+  gap:25px;
+  margin:30px 15px;
+}
+
+.toc-left,
+.toc-right{
+  padding:20px;
+}
+
+/* NGUYEN TRAI PAGE */
+
+.nguyentrai-layout{
+  flex-direction:column;
+}
+
+.nguyentrai-images{
+  flex-direction:row;
+  overflow-x:auto;
+}
+
+.nguyentrai-images img{
+  width:200px;
+}
+
+/* FLOAT BUTTON */
+
+.toc-float-btn{
+  right:15px;
+  bottom:15px;
+  padding:12px 16px;
+  font-size:14px;
+}
+
+}

@@ -1165,12 +1165,24 @@ mark{
 }
 
 /* =========================
-   MOBILE RESPONSIVE
+   MOBILE OPTIMIZATION
 ========================= */
 
 @media (max-width:768px){
 
-/* TOPBAR */
+body{
+  font-size:15px;
+}
+
+/* MAP */
+
+#map{
+  height:100vh;
+}
+
+/* ======================
+   TOPBAR
+====================== */
 
 .topbar{
   padding:10px 15px;
@@ -1181,72 +1193,82 @@ mark{
 }
 
 .nav-menu{
-  display:none; /* ẩn menu dài trên mobile */
+  display:none;
 }
 
-/* MAP */
-
-#map{
-  height:85vh;
-}
-
-/* SIDEBAR */
+/* ======================
+   SIDEBAR
+====================== */
 
 #sidebar{
   width:100%;
 }
 
-/* DANH SÁCH ĐỊA DANH */
-
-#locationList{
-  width:100%;
-  top:auto;
-  bottom:0;
-  height:45%;
-  border-right:none;
-  border-top:6px solid #8b0000;
+#sidebar-content{
+  padding:18px;
 }
 
-/* SEARCH */
+/* CLOSE BUTTON */
 
-.smart-search{
-  width:85%;
-  right:7%;
-  top:70px;
+#close-btn,
+#closeSidebar{
+  width:36px;
+  height:36px;
+  font-size:20px;
 }
 
-/* POEM */
+/* ======================
+   IMAGE SLIDER
+====================== */
+
+.main-image{
+  height:200px;
+}
+
+.arrow-btn{
+  width:48px;
+  height:48px;
+}
+
+/* ======================
+   TEXT
+====================== */
+
+.slide-text{
+  font-size:15px;
+}
+
+.slide-text b{
+  font-size:16px;
+}
+
+/* ======================
+   POEM
+====================== */
 
 .poem{
-  width:auto;
-  margin:25px 15px;
+  width:100%;
+  margin:25px 0;
   padding:20px;
   font-size:16px;
 }
 
-/* TITLE */
-
 .poem-title{
-  flex-direction:column;
-  align-items:flex-start;
-  gap:10px;
   font-size:22px;
 }
 
-/* BUTTON */
-
-.place-pill-btn{
-  font-size:13px;
-  padding:8px 14px;
+.poem-translation-title{
+  font-size:18px;
 }
 
-/* IMAGE */
+/* ======================
+   TABLE OF CONTENT
+====================== */
 
-.main-image{
-  height:auto;
+.toc-title{
+  font-size:26px;
+  margin-top:30px;
 }
-
-/* TOC PAGE */
 
 .toc-container{
   grid-template-columns:1fr;
@@ -1256,13 +1278,71 @@ mark{
 
 .toc-left,
 .toc-right{
-  padding:20px;
+  padding:22px;
 }
 
-/* NGUYEN TRAI PAGE */
+/* ======================
+   FLOAT BUTTON
+====================== */
+
+.toc-float-btn{
+  right:15px;
+  bottom:15px;
+  padding:12px 16px;
+  font-size:14px;
+}
+
+/* ======================
+   LOCATION LIST
+====================== */
+
+#locationList{
+  width:220px;
+  padding:15px;
+}
+
+#locationList h3{
+  font-size:16px;
+}
+
+#locationItems li{
+  font-size:14px;
+}
+
+/* ======================
+   SEARCH
+====================== */
+
+.smart-search{
+  width:90%;
+  right:5%;
+  top:70px;
+}
+
+.smart-search input{
+  font-size:14px;
+}
+
+/* ======================
+   NGUYEN TRAI PAGE
+====================== */
 
 .nguyentrai-layout{
   flex-direction:column;
+  gap:25px;
+  margin:20px auto;
+}
+
+.nguyentrai-text{
+  font-size:16px;
+}
+
+.nguyentrai-text h2{
+  font-size:24px;
+}
+
+.nguyentrai-text h3{
+  font-size:20px;
 }
 
 .nguyentrai-images{
@@ -1271,16 +1351,46 @@ mark{
 }
 
 .nguyentrai-images img{
-  width:200px;
+  width:180px;
 }
 
-/* FLOAT BUTTON */
+/* ======================
+   CREDIT PAGE
+====================== */
 
-.toc-float-btn{
-  right:15px;
-  bottom:15px;
-  padding:12px 16px;
-  font-size:14px;
+.credit-header h1{
+  font-size:26px;
+}
+
+.credit-header p{
+  font-size:16px;
+}
+
+.credit-card{
+  padding:18px;
+}
+
+/* ======================
+   BUTTONS
+====================== */
+
+.place-btn{
+  width:52px;
+  height:52px;
+  font-size:22px;
+}
+
+.place-pill-btn{
+  padding:8px 14px;
+  font-size:13px;
+}
+
+/* ======================
+   IMAGE EFFECT
+====================== */
+
+.main-image:hover{
+  transform:none;
 }
 
 }
